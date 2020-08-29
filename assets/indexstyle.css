@@ -1,10 +1,32 @@
+/* the background image for the body */
 body {
-
     background-image : url("ignasi_pattern_s.png");
 
 }
 
+/* trying to get the text to align left in the nav bar  */
 .right {
     text-align: right;
 }
 
+/* create footer with border bg-color and main bg-color  */
+.footer {
+    background-color: rgb(74, 169, 164);
+}
+
+
+/* create space between navbar and main container  */
+.mt-5 {
+    margin-top: ($spacer * 3) !important;
+
+}
+
+/* 
+try for wrapped text 
+
+#floated{
+    float: left;
+    width: 150px;
+    background: red;
+}
+ */
