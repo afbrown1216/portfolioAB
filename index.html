@@ -17,7 +17,7 @@
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <!-- my Name  -->
-      <a class="navbar-brand" href="#"> Ashley Brown</a>
+      <a class="navbar-brand" id= "name" href="#"> Ashley Brown</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -30,36 +30,54 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- navigation buttons list  -->
-     
+      <!-- navigation link list  -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#"> Contact <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- main content -->
     <div class="container">
       <!-- first row  -->
       <div class="row mt-5">
-        <div class="col-sm-8 border border-white p-3 mb-2 bg-white">
-          <h1>About Me</h1>
+        <div class="col-sm-9 border border-white bg-white mt-1">
+          <h1 class="mt-4">About Me</h1>
+          <hr/>
 
           <!-- second row  -->
           <div class="row">
             <!-- image column  -->
-            <div class="col-sm-2">
-              <img src="https://www.placecage.com/g/200/300" />
+            <div class="col-sm-9">
+              <div>
+                <img src="https://www.placecage.com/g/200/200" />
+                <p id="wrap">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                  omnis maxime aliquam ab voluptate. Quasi quos nisi doloribus,
+                  reiciendis facilis beatae, unde soluta tempora nam temporibus
+                  accusantium, blanditiis quod mollitia. Lorem ipsum, dolor sit
+                  amet consectetur adipisicing elit. Excepturi ipsum similique
+                  libero, debitis, exercitationem error laudantium quia labore
+                  facere quasi sed minus necessitatibus, deleniti eum! Enim at eos
+                  animi aliquid.
+                </p>
+
+              </div>
+              
             </div>
 
             <!-- wrapped text column  -->
-            <div class="col-sm-9 text-wrap">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                omnis maxime aliquam ab voluptate. Quasi quos nisi doloribus,
-                reiciendis facilis beatae, unde soluta tempora nam temporibus
-                accusantium, blanditiis quod mollitia. Lorem ipsum, dolor sit
-                amet consectetur adipisicing elit. Excepturi ipsum similique
-                libero, debitis, exercitationem error laudantium quia labore
-                facere quasi sed minus necessitatibus, deleniti eum! Enim at eos
-                animi aliquid.
-              </p>
+            <div class="col-sm-5">
+          
             </div>
           </div>
           <!-- see if this extra row creates space  -->
@@ -80,5 +98,21 @@
       </div>
     </div>
   </body>
-  <footer class="footer"></footer>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ 
+  <footer class="card-footer" id="footer">
+    &copy; Copyright
+  </footer>
+
+ 
 </html>
