@@ -15,7 +15,7 @@ footer {
     text-align: center;
     background-color: rgb(102,102,102);
     color: rgb(105,110,115);
-    border:black 20px;
+    border-top: rgb(74, 169, 164) 20px;
 }
 
 
@@ -42,18 +42,3 @@ img {
 }
 
 
-/* create space between navbar and main container  */
-/* .mt-5 {
-    margin-top: ( $spacer * 3) !important;
-
-} */
-
-/* 
-try for wrapped text 
-
-#floated{
-    float: left;
-    width: 150px;
-    background: red;
-}
- */
