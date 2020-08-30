@@ -10,12 +10,14 @@ body {
 }
 
 /* create footer with border bg-color and main bg-color  */
-#footer {
+footer {
+    height: 50px;
     text-align: center;
     background-color: rgb(102,102,102);
     color: rgb(105,110,115);
     border:black 5px;
 }
+
 
 
 #name {
