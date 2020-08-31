@@ -1,8 +1,42 @@
-footer {
+
+
+/* the background image for the body */
+body {
+        background-image : url("ignasi_pattern_s.png");
+    
+    }
+
+    /* create footer with border bg-color and main bg-color  */
+    footer {
         height: 50px;
         text-align: center;
         background-color: rgb(102,102,102);
         color: rgb(105,110,115);
-        border-top: rgb(74, 169, 164) 20px;
-}
+        border-top: 6px solid rgb(74, 169, 164);
+    }
+    
 
+    
+    #name {
+        background-color: rgb(74, 169, 164) ;
+        color: white; 
+        font-family: 'Times New Roman', Times, serif; 
+    }
+    
+    /* h1 text color  */
+    h1{
+        color:rgb(74, 169, 164);
+    
+    }
+    
+    img {
+        float: left;
+        margin-left: 10px;
+    }
+    
+    #wrap {
+        text-align: justify;
+    }
+    
+    
+    
