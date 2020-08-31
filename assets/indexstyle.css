@@ -15,8 +15,10 @@ footer {
     text-align: center;
     background-color: rgb(102,102,102);
     color: rgb(105,110,115);
-    border-top: rgb(74, 169, 164) 20px;
+    border-top: 6px solid rgb(74, 169, 164);
 }
+
+
 
 
 
